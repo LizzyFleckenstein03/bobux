@@ -17,6 +17,9 @@
 		<div style="height: 100px"></div>
 		<h2>GEt FREE/LIBRE BOBUX NOW!!!! (FREE AS IN FREEDOM!!!!)</h2>
 		<img src="stallman.png" width="500">
+		<p id="license" style="font-size: 20px; width: 50%; padding: 1em"><b>
+🚨🚨🚨⚠️⚠️⚠️ This program 📺 is free 🤑💰 software: 💸💻 you 👉 can 🙏🏻 redistribute it and/or modify it under 🌝 the terms 📄 of the GNU 👙 General 💂 Public 🏃‍♂️🙈 License as published 🤓 by 🔥 the Free 💜 Software 💸💻 Foundation, 🤓🔍🤯 either 😌 version 📼 3 🕒 of the License, or (at your 👩 option) 👸🤽‍♀️ any 🔥👏 later 👋 version. 📼 This program 📺 is distributed in 🤖 the hope 🌈 that 😩💰 it will 💃🏼 be 🐝 useful, 👍 but 👹 WITHOUT 🚫 ANY 🔥👏 WARRANTY; 😼 without ❌ even 🌖🌕 the implied warranty 😼 of MERCHANTABILITY or FITNESS FOR 👷 A PARTICULAR PURPOSE. 😄 See 👀👀 the GNU 👙 General 🤷 Public 🏃‍♂️🙈 License for 🐤💰🎅😙 more 🦎 details. 🙌🏽 You 👆 should 👀 have 🙋 received 💌 a copy 👌 of the GNU 🐮 General 💂 Public 😪 License along 💁🔚 with this program. 📺 If not, ✋ see 👀 <https://www.gnu.org/licenses/>.	
+⚠️⚠️⚠️🚨🚨🚨	</b></p>
 		<h2>THIS VIDEO WILL GUIDE YOU THROGU THE PROCESS!</h2>
 		<div id="pussyroblox" onclick="replaceImage()" style="position: relative; width: 1268px; height: 713px; cursor: pointer">
 			<img src="pussyroblox.jpg"  width="1268" height="713" style="position: absolute; top: 0px; left: 0px;">
@@ -100,5 +103,11 @@
 				+ Math.floor(Math.random() * 255) + ","
 				+ Math.floor(Math.random() * 255) + ")";
 		}, 200);
+
+		let onoff = false;
+		setInterval(_ => {
+		    $("#license")[0].style.backgroundColor = onoff ? "red" : "orange";
+		    onoff = !onoff;
+		}, 300);
 	</script>
 </html>
